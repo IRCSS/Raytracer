@@ -1,0 +1,3 @@
+﻿  Raytracer.cpp
+d:\shaplayground\raytracer\raytracer\raytracer\camera.h(20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Raytracer.vcxproj -> D:\ShaPlayGround\Raytracer\Raytracer\Debug\Raytracer.exe
