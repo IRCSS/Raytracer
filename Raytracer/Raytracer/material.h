@@ -8,7 +8,7 @@ public:
 	vec3 random_in_unit_sphere(std::uniform_real_distribution<float> &d, std::mt19937 &g) {
 		vec3 p;
 		do {
-			p = 2.0 * vec3(d(g), d(g), d(g)) - vec3(1.0, 1.0, 1.0);
+			p = 2.0f * vec3(d(g), d(g), d(g)) - vec3(1.0f, 1.0f, 1.0f);
 		} while (p.squared_length() >= 1.0);
 		return p;
 	}

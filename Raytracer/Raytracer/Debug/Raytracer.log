@@ -1,3 +1,5 @@
 ﻿  Raytracer.cpp
+d:\shaplayground\raytracer\raytracer\raytracer\sphere.h(14): warning C4150: deletion of pointer to incomplete type 'material'; no destructor called
+  d:\shaplayground\raytracer\raytracer\raytracer\sphere.h(3): note: see declaration of 'material'
 d:\shaplayground\raytracer\raytracer\raytracer\camera.h(20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
   Raytracer.vcxproj -> D:\ShaPlayGround\Raytracer\Raytracer\Debug\Raytracer.exe

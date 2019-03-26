@@ -10,6 +10,9 @@ public:
 	vec3 center;
 	float radius;
 	material* mt_ptr;
+	~sphere() {
+		delete mt_ptr;
+	}
 };
 
 

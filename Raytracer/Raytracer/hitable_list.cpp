@@ -2,14 +2,7 @@
 #include "hitable_list.h"
 
 
-hitable_list::hitable_list()
-{
-}
 
-
-hitable_list::~hitable_list()
-{
-}
 bool hitable_list::hit(const Ray& r, float tmin, float tmax, hit_record& rec) const {
 	hit_record temp_rec;
 	bool hit_anything = false;
