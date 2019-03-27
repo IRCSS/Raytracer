@@ -56,6 +56,6 @@ public:
 	std::uniform_real_distribution<float>* _d;
 	std::mt19937* _g;
 
-	~camera();
+	~camera() ;
 };
 
