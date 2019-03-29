@@ -2,6 +2,9 @@
 d:\shaplayground\raytracer\raytracer\raytracer\sphere.h(14): warning C4150: deletion of pointer to incomplete type 'material'; no destructor called
   d:\shaplayground\raytracer\raytracer\raytracer\sphere.h(3): note: see declaration of 'material'
 d:\shaplayground\raytracer\raytracer\raytracer\camera.h(20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-d:\shaplayground\raytracer\raytracer\raytracer\raytracer.cpp(108): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
-d:\shaplayground\raytracer\raytracer\raytracer\raytracer.cpp(231): warning C4102: 'std': unreferenced label
+d:\shaplayground\raytracer\raytracer\raytracer\raytracer.cpp(120): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+d:\shaplayground\raytracer\raytracer\raytracer\raytracer.cpp(139): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\shaplayground\raytracer\raytracer\raytracer\raytracer.cpp(140): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\shaplayground\raytracer\raytracer\raytracer\raytracer.cpp(141): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\shaplayground\raytracer\raytracer\raytracer\raytracer.cpp(142): warning C4305: 'argument': truncation from 'double' to 'float'
   Raytracer.vcxproj -> D:\ShaPlayGround\Raytracer\Raytracer\Debug\Raytracer.exe

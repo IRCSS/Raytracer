@@ -5,7 +5,7 @@ class dielectric : public material
 public:
 	dielectric(float ri) : ref_idx(ri) {}
 
-	virtual bool scatter(const Ray&  r_in, const hit_record& rec, vec3& attenuation, Ray& scattered, std::uniform_real_distribution<float> &d, std::mt19937 &g) {
+	virtual bool scatter(const Ray&  r_in, const hit_record& rec, vec3& attenuation, Ray& scattered, vec3& emmisve, std::uniform_real_distribution<float> &d, std::mt19937 &g) {
 		vec3 outward_normal;
 		vec3 reflected = reflect(r_in.direction(), rec.normal);
 		float ni_over_nt;

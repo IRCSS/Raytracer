@@ -14,7 +14,7 @@ public:
 	}
 
 	
-	virtual bool scatter(const Ray&  r_in, const hit_record& rec, vec3& attenuation, Ray& scattered, std::uniform_real_distribution<float> &d, std::mt19937 &g) = 0;
+	virtual bool scatter(const Ray&  r_in, const hit_record& rec, vec3& attenuation, Ray& scattered, vec3& emmisve, std::uniform_real_distribution<float> &d, std::mt19937 &g) = 0;
 	vec3 reflect(const vec3& v, const vec3& n) {
 		return  v -2.0f*dot(v,n) *n;
 	}
@@ -29,5 +29,6 @@ public:
 		}
 		else return false;
 	}
+
 };
 
